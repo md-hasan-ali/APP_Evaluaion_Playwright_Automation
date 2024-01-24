@@ -8,6 +8,7 @@ exports.LoginPage = class LoginPage {
     /**
      * @param {import('@playwright/test').Page} page
      */
+   
     constructor(page) {
         this.page = page;
         this.usernameInputField = page.locator(locators.LoginPage.usernameInput);
